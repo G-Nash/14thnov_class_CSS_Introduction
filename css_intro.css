@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+#heading_div{
+    background-color:lightcoral;
+    /*text-align: center; 
+    height: 80px; */
+    text-decoration: underline;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center */
+    height: 80px;           /* Set height of the container */
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+}
+#heading_div:hover{
+    background-color:palegreen;
+}
+
+.para_div{
+    background-color: cyan;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.para_div:hover{
+    background-color:lightslategray;
+}
+
